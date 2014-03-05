@@ -1,0 +1,1 @@
+	<h2>Post updated!</h2>
