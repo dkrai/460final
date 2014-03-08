@@ -8,8 +8,16 @@
     
     function index()
     {
+      $this->load->helper('form');
     	$data['title'] = "My blog";
     	$data['posts'] = $this->blog_model->getPosts();
     	$this->load->view('blog_view', $data);
+    }
+    function search()
+    {
+      $this->load->helper('form');
+      $data['title'] = "My blog";
+      $data['posts'] = $this->blog_model->getPosts();
+      $this->load->view('blog_search_view', $data);
     }
   }

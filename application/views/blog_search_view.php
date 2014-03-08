@@ -4,8 +4,4 @@
 			<p><?php echo $post['content']; ?></p>
 		<?php endforeach; ?>
 
-		<?php echo form_open("blog/search"); ?>
-			<label>Search:</label>
-			<input type="text" name="searchquery" />
-			<input type="submit" name="submit" value="Go">
-		</form>
+		<h2>Search Results:</h2>
